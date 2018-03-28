@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>a50fd14c-23c3-437f-89f7-48387e795d81</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>MIConvexHullEx</Id>
+    <Title>MIConvexHullEx</Title>
+    <Authors>David Sehnal, Matt Campbell</Authors>
+    <Owners>Praveenkumar Vasudevan</Owners>
+    <Summary>MIConvexHullEx</Summary>
+    <Description>This project is a convex hull algorithm and library for 2D, 3D, and higher dimensions. The code can also be used to compute Delaunay triangulations and Voronoi meshes of the input data.</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>https://designengrlab.github.io/MIConvexHull/</ProjectUrl>
+    <LicenseUrl>https://github.com/DesignEngrLab/MIConvexHull/blob/master/LICENSE.txt</LicenseUrl>
+    <Copyright>2017</Copyright>
+    <Tags>MIConvexHullEx</Tags>
+    <Version>1.0.17.0411</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MIConvexHull.Net40\MIConvexHull.Net40.csproj">
+      <PackageDirectory>net40</PackageDirectory>
+      <TargetFramework>net40</TargetFramework>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
