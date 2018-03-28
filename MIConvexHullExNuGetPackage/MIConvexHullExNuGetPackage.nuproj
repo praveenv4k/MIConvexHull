@@ -30,15 +30,16 @@
     <LicenseUrl>https://github.com/DesignEngrLab/MIConvexHull/blob/master/LICENSE.txt</LicenseUrl>
     <Copyright>2017</Copyright>
     <Tags>MIConvexHullEx</Tags>
-    <Version>1.0.17.0411</Version>
+    <Version>1.0.17.1019</Version>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MIConvexHull.Net40\MIConvexHull.Net40.csproj">
-      <PackageDirectory>net40</PackageDirectory>
-      <TargetFramework>net40</TargetFramework>
+      <Library>
+        <TargetFramework>net40</TargetFramework>
+      </Library>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(NuProjPath)\NuProj.targets" />
