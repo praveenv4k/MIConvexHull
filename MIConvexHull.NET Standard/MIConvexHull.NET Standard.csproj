@@ -21,7 +21,7 @@
     <AssemblyVersion>1.0.17.1019</AssemblyVersion>
     <FileVersion>1.0.17.1019</FileVersion>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>C:\Work\Develop\Sandbox\MIConvexHull\MIConvexHull\MIConvexHullEx.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\MIConvexHullEx.pfx</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>MIConvexHull</Product>
     <DelaySign>false</DelaySign>
@@ -51,10 +51,6 @@
     <Folder Include="ConvexHull\" />
     <Folder Include="Properties\" />
     <Folder Include="Triangulation\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\MIConvexHull\MIConvexHullEx.pfx" Link="MIConvexHullEx.pfx" />
   </ItemGroup>
 
 </Project>

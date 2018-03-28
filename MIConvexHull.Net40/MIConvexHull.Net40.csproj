@@ -33,7 +33,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>..\MIConvexHull\MIConvexHullEx.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\MIConvexHullEx.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -96,11 +96,6 @@
     <Compile Include="..\MIConvexHull\Triangulation\VoronoiMesh.cs">
       <Link>Triangulation\VoronoiMesh.cs</Link>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\MIConvexHull\MIConvexHullEx.pfx">
-      <Link>MIConvexHullEx.pfx</Link>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
