@@ -40,11 +40,11 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>MIConvexHull.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>MIConvexHullEx.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <None Include="MIConvexHull.pfx" />
+    <None Include="MIConvexHullEx.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
