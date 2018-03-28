@@ -30,7 +30,7 @@
     <LicenseUrl>https://github.com/DesignEngrLab/MIConvexHull/blob/master/LICENSE.txt</LicenseUrl>
     <Copyright>2017</Copyright>
     <Tags>MIConvexHullEx</Tags>
-    <Version>1.0.17.1019</Version>
+    <Version>1.0.17.1021</Version>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />

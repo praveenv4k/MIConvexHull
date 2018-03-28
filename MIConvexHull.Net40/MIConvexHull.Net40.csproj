@@ -30,7 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\MIConvexHullEx.pfx</AssemblyOriginatorKeyFile>
@@ -75,9 +75,6 @@
     <Compile Include="..\MIConvexHull\IVertex.cs">
       <Link>IVertex.cs</Link>
     </Compile>
-    <Compile Include="..\MIConvexHull\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="..\MIConvexHull\Triangulation.cs">
       <Link>Triangulation.cs</Link>
     </Compile>
@@ -96,6 +93,7 @@
     <Compile Include="..\MIConvexHull\Triangulation\VoronoiMesh.cs">
       <Link>Triangulation\VoronoiMesh.cs</Link>
     </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
